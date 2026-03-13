@@ -160,6 +160,43 @@ ul {
   flex-shrink: 0;
 }
 
+.schools-intro-card {
+  padding: 2rem;
+  text-align: center;
+}
+
+.schools-intro-card h2 {
+  margin-bottom: 1rem;
+}
+
+.schools-intro-card p:last-child {
+  margin-bottom: 0;
+}
+
+.section-tight-top {
+  padding-top: 0.5rem;
+}
+
+.schools-use-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.use-card {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.use-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.use-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
@@ -478,6 +515,23 @@ ul {
   padding: 1rem 0 2rem;
   border-top: 1px solid rgba(236, 220, 204, 0.9);
   color: var(--muted);
+}
+
+@media (max-width: 960px) {
+  .schools-use-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .schools-use-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .schools-intro-card,
+  .use-card {
+    padding: 1.4rem;
+  }
 }
 
 @media (max-width: 960px) {
