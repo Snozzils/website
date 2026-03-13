@@ -473,6 +473,19 @@ ul {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .series-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .series-panel-actions {
+    width: 100%;
+  }
+
+  .series-panel-actions .button {
+    width: 100%;
+  }
 }
 
 @media (max-width: 760px) {
