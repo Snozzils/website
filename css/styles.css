@@ -139,6 +139,27 @@ ul {
   box-shadow: var(--shadow);
 }
 
+.series-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.series-panel-copy h2 {
+  margin-bottom: 0.75rem;
+}
+
+.series-panel-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.series-panel-actions {
+  flex-shrink: 0;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
