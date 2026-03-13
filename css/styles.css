@@ -117,6 +117,14 @@ ul {
   text-align: center;
 }
 
+.book-card.coming-soon {
+  opacity: 0.85;
+}
+
+.book-card.coming-soon .book-cover {
+  filter: saturate(0.9);
+}
+
 .eyebrow {
   display: inline-block;
   margin-bottom: 0.75rem;
