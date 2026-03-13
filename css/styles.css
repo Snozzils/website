@@ -99,12 +99,12 @@ ul {
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 2.75rem 0;
 }
 
 .section-tint {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
   background: linear-gradient(180deg, rgba(255, 243, 231, 0.7), rgba(255, 250, 244, 0.8));
 }
 
@@ -280,8 +280,8 @@ ul {
 }
 
 .hero {
-  padding-top: 5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 4rem;
+  padding-bottom: 2.75rem;
 }
 
 .hero-grid,
@@ -314,7 +314,7 @@ ul {
 
 .section-heading {
   max-width: 760px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.25rem;
   text-align: center;
 }
 
@@ -391,7 +391,7 @@ ul {
 
 .chips-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .chip {
@@ -405,22 +405,26 @@ ul {
 }
 
 .final-cta {
-  padding-top: 2.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.75rem;
 }
 
 .page-hero {
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.page-hero .lead {
+  margin-bottom: 0;
 }
 
 .page-hero + .section {
-  padding-top: 2rem;
+  padding-top: 0.75rem;
 }
 
 .site-footer {
-  margin-top: 1rem;
-  padding-top: 2.5rem;
+  margin-top: 0.5rem;
+  padding-top: 2.25rem;
   background: #fff3e7;
   border-top: 1px solid var(--border);
 }
@@ -473,26 +477,26 @@ ul {
 
 @media (max-width: 760px) {
   .section {
-    padding: 3rem 0;
+    padding: 2.25rem 0;
   }
 
   .section-tint {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .page-hero {
-    padding-top: 2.25rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.25rem;
   }
 
   .page-hero + .section {
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
   }
 
   .hero {
-    padding-top: 3.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2.75rem;
+    padding-bottom: 2rem;
   }
 
   .nav-toggle {
