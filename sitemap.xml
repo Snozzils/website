@@ -6,10 +6,22 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://snozzils.co.uk/books.html</loc>
+    <loc>https://snozzils.co.uk/books/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://snozzils.co.uk/books/careful-crossing.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://snozzils.co.uk/books/a-friendly-hello.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>  
   <url>
     <loc>https://snozzils.co.uk/esme-bailey.html</loc>
     <changefreq>monthly</changefreq>
