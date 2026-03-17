@@ -412,10 +412,18 @@ ul {
   padding: 1.75rem;
 }
 
-.book-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.book-card .button {
+  display: inline-block;
+  margin-top: 14px;
+}
+
+.book-card .book-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.book-card p {
+  flex-grow: 1;
 }
 
 .book-card .book-cover {
