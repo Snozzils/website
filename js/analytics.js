@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("a").forEach(function (link) {
     if (
       link.href.includes("amazon") ||
-      link.href.includes("amzn.to")
+      link.href.includes("amzn")
     ) {
       link.addEventListener("click", function (event) {
         const url = link.href;
