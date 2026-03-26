@@ -15,7 +15,7 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
-        console.log("amazon_click fired");
+        console.log("gtag call:", arguments);
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
