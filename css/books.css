@@ -530,3 +530,42 @@
     margin-top: 0.15rem;
   }
 }
+
+.discussion-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.discussion-card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+}
+
+.discussion-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discussion-card-content h2 {
+  margin-top: 0.25rem;
+}
+
+.discussion-card-content h3 {
+  margin-bottom: 1.25rem;
+}
+
+.discussion-card-content p:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .discussion-card {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
